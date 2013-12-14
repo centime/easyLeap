@@ -13,6 +13,8 @@ GLOBALS = {
         'hand/fingers':'fingers.__len__()',
         'hand/dist_fingers_lr':'dist_fingers_lr',
         'hand/angle_fingers_lr':'angle_fingers_lr',
+        'hand/fingers_avg_angle':'fingers_avg_angle',
+        'hand/fingers_avg_dist':'fingers_avg_dist',
         'hand/position/x':'palm_position.x',
         'hand/position/y':'palm_position.y',
         'hand/position/z':'palm_position.z',
@@ -26,6 +28,13 @@ GLOBALS = {
         'hand/roll':'roll',
         'hand/pitch':'pitch',
         'hand/palm_normal':'palm_normal',
+
+        'hand/lm_fing_tip_rel_pos_x':'lm_fing_tip_rel_pos_x',
+        'hand/lm_fing_tip_rel_pos_y':'lm_fing_tip_rel_pos_y',
+        'hand/lm_fing_tip_rel_pos_z':'lm_fing_tip_rel_pos_z',
+        'hand/rm_fing_tip_rel_pos_x':'rm_fing_tip_rel_pos_x',
+        'hand/rm_fing_tip_rel_pos_y':'rm_fing_tip_rel_pos_y',
+        'hand/rm_fing_tip_rel_pos_z':'rm_fing_tip_rel_pos_z',
     },
     'WATCHED_PARAMS_IN_SWIPE' : {
         'swipe/duration':'duration_seconds',
